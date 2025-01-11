@@ -86,12 +86,12 @@ splitButton.removeViewAt(1) // Removes the button at index 1
 
 ## Customization
 ### Available Attributes
-| Attribute               | Format    | Description                                   |
-|-------------------------|-----------|-----------------------------------------------|
-| `childBackgroundColor`  | `color`   | Background color of the child buttons.       |
-| `childTextColor`        | `color`   | Text color of the child buttons.             |
-| `edgeCorner`            | `dimension` | Corner radius for the first and last buttons. |
-| `childCorner`           | `dimension` | Corner radius for the middle buttons.         |
+| Attribute               | Format      | Description                                   |
+|-------------------------|-------------|-----------------------------------------------|
+| `childBackgroundColor`  | `color`     | Background color of the child buttons.       |
+| `childTextColor`        | `color`     | Text color of the child buttons.             |
+| `edgeCorner`            | `float`     | Corner radius for the first and last buttons. |
+| `childCorner`           | `float `    | Corner radius for the middle buttons.         |
 | `childSpacing`          | `dimension` | Spacing between the child buttons.           |
 
 ---
