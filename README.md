@@ -1,6 +1,7 @@
 # SplitButton Library
 
 SplitButton is a re-creation of the Material3 Split Button, inspired by the [Material Components Android Button documentation](https://github.com/material-components/material-components-android/blob/master/docs/components/Button.md#split-button). This library provides a highly customizable implementation of the Material3 Split Button, which is currently not included in the stable Material library.
+![split_button](https://github.com/user-attachments/assets/69734216-133f-4e46-a6d0-373f41e244fa)
 
 ## Features
 - Fully customizable split button.
