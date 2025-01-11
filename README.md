@@ -45,7 +45,6 @@ Include the SplitButton in your layout XML:
     android:id="@+id/splitButton"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
-    android:orientation="horizontal"
     app:childBackgroundColor="@color/primary"
     app:childTextColor="@color/onPrimary"
     app:edgeCorner="16dp"
