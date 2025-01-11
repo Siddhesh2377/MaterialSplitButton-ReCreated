@@ -17,6 +17,10 @@ android {
     buildTypes {
         release {
             isMinifyEnabled = false
+            proguardFiles(
+                getDefaultProguardFile("proguard-android-optimize.txt"),
+                "proguard-rules.pro"
+            )
         }
     }
     compileOptions {
@@ -28,19 +32,7 @@ android {
     }
 }
 
-publishing {
-    publications {
-        create<MavenPublication>("release") {
-            groupId = "com.github.Siddhesh2377"
-            artifactId = "SplitButton"
-            version = "1.0.0"
 
-            afterEvaluate {
-                from(components["release"])
-            }
-        }
-    }
-}
 
 dependencies {
 
