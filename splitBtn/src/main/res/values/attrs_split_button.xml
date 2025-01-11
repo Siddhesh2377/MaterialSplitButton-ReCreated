@@ -1,0 +1,9 @@
+<resources>
+    <declare-styleable name="SplitButton">
+        <attr name="childBackgroundColor" format="color" />
+        <attr name="childTextColor" format="color"/>
+        <attr name="edgeCorner" format="float" />
+        <attr name="childCorner" format="float" />
+        <attr name="childSpacing" format="dimension" />
+    </declare-styleable>
+</resources>
