@@ -21,6 +21,7 @@ class SplitButton @JvmOverloads constructor(
     private var childSpacing: Int = 5
     private var childTxtColor: Int = Color.DKGRAY
 
+
     init {
         init(attrs)
     }
@@ -28,6 +29,7 @@ class SplitButton @JvmOverloads constructor(
     private fun init(attrs: AttributeSet?) {
         ui = UI(context)
         setPadding(ui.dpToPx(8f))
+        orientation = HORIZONTAL
 
         attrs?.let {
             val typedArray = context.obtainStyledAttributes(it, R.styleable.SplitButton)
