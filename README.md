@@ -15,7 +15,7 @@ SplitButton is a re-creation of the Material3 Split Button, inspired by the [Mat
 ### Clone the Repository
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/<your-username>/SplitButton.git
+   git clone https://github.com/Siddhesh2377/MaterialSplitButton-ReCreated.git
    ```
 
 2. Copy the `splitBtn` library module into your Android Studio project.
