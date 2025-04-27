@@ -12,28 +12,19 @@ SplitButton is a re-creation of the Material3 Split Button, inspired by the [Mat
 
 ---
 
-## Installation
-### Clone the Repository
-1. Clone the repository to your local machine:
-   ```bash
-   git clone https://github.com/Siddhesh2377/MaterialSplitButton-ReCreated.git
-   ```
+## Add to project
 
-2. Copy the `splitBtn` library module into your Android Studio project.
+[![JitPack Release](https://jitpack.io/v/Siddhesh2377/SplitButton.svg)](https://jitpack.io/#Siddhesh2377/SplitButton)
 
-### Include the Library in Your Project
-1. In your `settings.gradle` file, include the `splitBtn` module:
-   ```kotlin
-   include(":splitBtn")
-   project(":splitBtn").projectDir = file("path-to-splitBtn-module")
-   ```
+```kotlin
+allprojects {
+    repositories {
+        maven("https://jitpack.io")
+    }
+}
 
-2. In your app module's `build.gradle` file, add the library as a dependency:
-   ```kotlin
-   dependencies {
-       implementation project(":splitBtn")
-   }
-   ```
+implementation("com.github.Siddhesh2377:SplitButton:<version>")
+```
 
 ---
 
@@ -41,7 +32,7 @@ SplitButton is a re-creation of the Material3 Split Button, inspired by the [Mat
 ### XML Example
 Include the SplitButton in your layout XML:
 ```xml
-<com.dark.splitbtn.SplitButton
+<com.dark.splitbutton.SplitButton
     android:id="@+id/splitButton"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
@@ -65,7 +56,7 @@ Include the SplitButton in your layout XML:
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Last" />
-</com.dark.splitbtn.SplitButton>
+</com.dark.splitbutton.SplitButton>
 ```
 
 ### Dynamic Button Management
