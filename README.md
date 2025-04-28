@@ -94,7 +94,6 @@ Contributions are welcome! If you find any issues or want to improve this librar
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for more details.
-
 ---
 
 ## Acknowledgements
