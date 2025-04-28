@@ -1,9 +1,0 @@
-<resources>
-
-    <style name="Widget.Theme.Tasker.MyView" parent="">
-        <item name="android:background">@color/gray_400</item>
-        <item name="childBackgroundColor">@color/light_blue_400</item>
-        <item name="cornerRadius">50dp</item>
-
-    </style>
-</resources>

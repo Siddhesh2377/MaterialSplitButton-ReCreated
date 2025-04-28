@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/main"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".MainActivity">
+
+  <com.dark.splitbutton.SplitButton
+    android:id="@+id/splitBtnGrp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_centerInParent="true"
+    app:childBackgroundColor="#373737"
+    app:childCorner="10"
+    app:childSpacing="8dp"
+    app:childTextColor="@color/white"
+    app:edgeCorner="60">
+
+    <com.google.android.material.button.MaterialButton
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.9"
+      android:text="@string/app_name" />
+
+    <com.google.android.material.button.MaterialButton
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_weight="0.3"
+      android:checkable="true"
+      app:icon="@drawable/down_icon"
+      app:iconGravity="textStart"
+      app:iconPadding="0dp"
+      app:iconSize="24dp" />
+  </com.dark.splitbutton.SplitButton>
+
+
+</RelativeLayout>
